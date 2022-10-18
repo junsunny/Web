@@ -1,0 +1,125 @@
+@charset "utf-8";
+html{
+	font-size:14px;
+}
+
+#container{
+	width:1280px;
+	margin:0 auto;
+	padding:0;
+	height:100%;
+	background:#fff;
+}
+
+header{
+	width:100%;
+	height:260px;/*기본값 px 수정하기*/
+	background:#fff;
+}
+
+header>h2, #contents>h2{
+	display:none;
+	visibility:hidden;
+	width:0; height:0;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+#utilwrap{
+	display:flex;
+	flex-wrap:row wrap;
+	margin-left:auto;
+	justify-content:flex-end;
+	width:100%;
+	height:40px; /*px 수정하기*/
+	background:#8fbfbc;	
+}
+
+#utilwrap>ul{ /*수평하게 정렬하는 방법.*/
+	display:flex;
+	flex-wrap:row wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+#gnb>ul{
+	display:flex;
+	flex-wrap:row wrap;
+	justify-content:center;
+	justify-content:space-between;
+}
+#utilwrap>ul>li{
+	margin:0 15px;
+}
+#utilwrap>ul:last-child{
+	margin-left: 20px;
+}
+#utilwrap>ul:last-child>li{
+	margin: 0 10px;
+}
+
+#gnb{margin: 0 10px;}
+#gnb ul li{
+	width:120px;
+	text-align:center;
+	height:70px;
+}
+
+#gnb ul li a { /**/
+	display:block;
+	width:100%;
+	line-height:70px;
+	overflow:hidden;
+}
+
+/*컨텐츠 영역*/
+#contents{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding:10px 0;
+	overflow:hidden;
+}
+
+#contents>div{
+	width:295px;
+	margin:10px;
+	overflow:hidden;
+}
+
+#contents>div:nth-of-type(1){
+	background:url('../img/visual.jpg')no-repeat center/cover;
+	width:610px;
+	height:500px;
+	overflow:hidden;
+
+}
+
+.inner_sbox{
+	width:295px; height:240px;
+	background:#f2f2f2;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+
+.m_zero{margin-bottom:0; overflow:hidden; }
+
+.inner_mbox{
+	background: #f2f2f2;
+	width:295px; height:500px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+
+#contents>div:nth-of-type(5){
+	background: #f2f2f2;
+	overflow:hidden;
+}
+
+footer{
+	height:150px;
+	background:#fdeebd;
+}
+
+
+
+

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""  />
+	<meta name="author" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<title>NEW</title>
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<script>
+$(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 500) {
+                $('.top_btn').fadeIn();
+            } else {
+                $('.top_btn').fadeOut();
+            }
+        });
+        
+        $(".top_btn").click(function() {
+            $('html, body').animate({
+                scrollTop : 0
+            }, 400);
+            return false;
+        });
+    });
+</script>
+<body>
+<header class="wrap">
+	<h1 id="logo"><a href="#">LOGO</a></h1>
+	<h2>Edvard Munch</h2>
+</header>
+<section id="visual">
+<h2>비주얼 배너 영역</h2>
+	<div class="wrap"> <!-- 960px 중앙 정렬 사용. -->
+		<figure>
+			<img src="./img/visual_bn.jpg" alt="visual_bn" style="width: 614px;" />
+			<figcaption style="line-height: 1.5; font-size: 1.2rem;">
+			<p style="font-size: 2rem;">봄 (Spring) 	</p>
+			아티스트 에드바르 뭉크(Edvard Munch)</br>
+			국적 노르웨이</br>
+			출생-사망 1863년~1944년</br>
+			제작연도 1889년</br>
+			기법 Oil on canvas</br>
+			크기 169 x 264cm
+			</figcaption>
+		</figure>	
+		<figure>
+			<img src="./img/right01.png" alt="visual_right01" />
+			<figcaption>절규 (The Scream)</figcaption>
+		</figure>	
+		<figure>
+			<img src="./img/right02.png" alt="visual_right02" />
+			<figcaption>귀가하는 노동자들 <br/> (Workers Returning Home)</figcaption>
+		</figure>	
+	</div>
+</section>
+<section id="line_bnr">
+<h2>띠배너 영역</h2>
+<div class="wrap">
+	<figure>
+		<img src="./img/bn.png" alt="띠배너이미지" />
+		<figcaption>Edvard Munch</figcaption>
+	</figure>
+	<hgroup>
+		<h3>그녀의 머리를 빗질하는 소녀</h3>
+		<h4>Girl Combing Her Hair</h4>
+	</hgroup>
+</div>
+</section>
+<section id="gallery">
+<h2>작품 갤러리 영역</h2>
+<div class="wrap">
+	<h3 class="title"><span>GALLERY</span></h3>
+	<ul class="gallery_list">
+		<li>
+			<a href="#">
+				<img src="./img/img01.png" alt="몽마르트 공원"/>
+				<h4>재</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img02.png" alt="물랭 드 라 갈래트의 무도회"/>
+				<h4>뱀파이어</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img03.png" alt="아스네르의 세느강"/>
+				<h4>생의 춤</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img04.png" alt="빨래하는 여인들"/>
+				<h4>키스 IV</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img05.png" alt="첫 나들이"/>
+				<h4>만남</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img06.png" alt="퐁네프 다리"/>
+				<h4>법률학</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img07.png" alt="호반 풍경"/>
+				<h4>부두에서 세 소녀</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img08.png" alt="뤽상부르 공원에서"/>
+				<h4>여름 밤 (해안가에 잉거)</h4>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="./img/img09.png" alt="딸기"/>
+				<h4>카를 요한의 봄날 거리</h4>
+			</a>
+		</li>
+	</ul>
+</div>
+</section>
+<section id="latest">
+<h2>최근 작품 영역</h2>
+<div class="wrap">
+	<article>
+		<h3 class="title"><span>1920년도 작품</span></h3>
+		<a href="#">
+			<img src="./img/bt_img01.png" alt="별이 빛나는 밤" />
+			<dl>
+				<dt>별이 빛나는 밤</dt>
+				<dt>Starry night</dt>
+				<dd>1922년 ~ 1924년</dd>
+				<dd>Oil on canvas</dd>
+			</dl>
+		</a>
+		<a href="#">
+			<img src="./img/bt_img02.png" alt="등의자 곁에 선 나부" />
+			<dl>
+				<dt>등의자 곁에 선 나부</dt>
+				<dt>Model by the Wicker Chair</dt>
+				<dd>1912년 ~ 1921년</dd>
+				<dd>Oil on canvas</dd>
+			</dl>
+		</a>
+	</article>
+	<article>
+		<h3 class="title"><span>린데박사의 네 아들</span></h3>
+		<a href="#">
+			<figure>
+				<img src="./img/content01.png" alt="특 별 석" />
+				<figcaption style="font-size: 1.2rem;">The Four Sons of Dr. Linde</figcaption>
+			</figure>
+		</a>
+	</article>
+</div>
+<div class="wrap">
+	<article>
+		<h3 class="title"><span>1900년도 작품</span></h3>
+		<a href="#">
+			<img src="./img/bt_img03.png" alt="파란 커튼 앞의 장미" />
+			<dl>
+				<dt>골고다 언덕</dt>
+				<dt>Golgotha</dt>
+				<dd>1900년</dd>
+				<dd>Oil on canvas</dd>
+			</dl>
+		</a>
+		<a href="#">
+			<img src="./img/bt_img04.png" alt="꽃병의 국화다발" />
+			<dl>
+				<dt>도로에 내리는 눈</dt>
+				<dt>Snow Falling in the Lane</dt>
+				<dd>1906년</dd>
+				<dd>Oil on canvas</dd>
+			</dl>
+		</a>
+	</article>
+	<article>
+		<h3 class="title"><span>바닷가의 여자들</span></h3>
+		<a href="#">
+			<figure>
+				<img src="./img/content02.png" alt="특 별 석" />
+				<figcaption style="font-size: 1.2rem;">To kvinner ved stranden</figcaption>
+			</figure>
+		</a>
+	</article>
+</div>
+</section>
+<section id="bnt_wrap">
+<h2>큰배너영역</h2>
+	<a href="#">BNR</a>
+</section>
+<footer>
+	<div class="wrap">
+	<h1 id="logo"><a href="#">LOGO</a></h1>
+<address>
+	대표자 : 이준선 , 사업자등록번호:2000-11-00313 <br/>
+	대표전화 : (서울) 02-3221-9500, (인천) 032-218-6000<br/>
+	ⓒ 2022 National Museum of Art, Korea
+</address>
+</div>
+</footer>
+<aside class="top_btn">▲</aside>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import "layout.css";
+
+.wrap{width: 1220px;}
+#logo{width: 238px; height: 27px;}
+#logo>a{
+    display: block;
+    height: 100%;
+    width: 80%;
+    background: url('../images/logo2.png') no-repeat;
+    overflow: hidden;
+    text-indent: -999999999px;
+}
+
+
+header>div{
+    line-height: 80px;
+    margin: 0 20px;
+    align-items: center;
+    padding: 15px;
+}
+header h2 a{
+    display: block;
+    width: 100%; height: 100%;
+    background:url('../images/glass2.png') no-repeat center/20px;
+    text-indent: -99999999px;
+    position: relative;
+}
+
+#gnb{width: 40%;
+    justify-content: flex-end;
+    position: absolute;
+    right:10%;
+}
+
+
+#gnb>li{ width:20%;}
+#gnb a{
+    font-size: 1.1rem; 
+    color: #000; 
+    font-weight: 800;
+
+
+}
+#gnb a:hover{color:gold; font-weight: 600;}
+
+
+/*investment 영역*/
+
+#investment{
+    height: 395px;
+    background: url('../images/submain.jpg') no-repeat center/cover;
+    position: relative;
+}
+
+#investment .tgroup{
+    position: absolute;
+    top:0;
+    left: 44%;
+    margin-top: 30px;
+}
+
+#investment .tgroup h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-top: 60px;
+}
+
+#investment .tgroup h3{
+    color: #fff;
+    font-weight: 400;
+}
+
+/*sub main 부분*/
+
+#intro_img>h2{
+    width: 402px;height: 150px;
+    background: url(../images/intro.png) no-repeat center/cover;
+    margin: 50px auto;
+    text-indent: -999999px;
+}
+
+
+
+#introduce>ul{
+    text-align: center;
+}
+#introduce>ul>li{
+    color: #666;
+    line-height: 1.5;
+}
+#introduce>ul>li h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    padding: 20px;
+}
+
+#introduce>ul>li.gray_line{
+    background:#ddd;
+    width: 45%;
+    height: 1px;
+    margin: 20px auto;
+}
+
+#box h2{text-indent: -99999999px;}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+.boxes>ul>li h4{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 10px 0;
+} 
+
+.boxes>ul{
+    margin: 10px 0;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+.boxes>ul>li{
+    margin-top: 70px;
+}
+
+.boxes>ul>li:nth-child(even){
+    margin-top: 0;
+}
+.boxes>ul:first-child{
+    background: orange;
+    width:59%; height: 200px;
+}
+
+.boxes>ul:nth-child(2){
+    background: orange;
+    width:39%; height: 200px;
+}
+
+.boxes>ul:nth-child(3){
+    background: orange;
+    width:35%; height: 200px;
+}
+
+.boxes>ul:nth-child(4){
+    background: orange;
+    width:63%; height: 200px;
+}
+
+.boxes>ul:nth-child(5){
+    background: orange;
+    width:49%; height: 200px;
+}
+
+.boxes>ul:nth-child(6){
+    background: orange;
+    width:49%; height: 200px;
+}
